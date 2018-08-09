@@ -212,3 +212,7 @@ hr {
 .app-store-badge {
   width: 50%;
 }
+.feature-subtitle {
+  text-align: center;
+  font-weight: normal;
+}
