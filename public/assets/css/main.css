@@ -43,7 +43,7 @@ body {
 	border-radius: 50%;
 }
 .mega-font {
-	font-size: 2em;
+	font-size: 1.6em;
 }
 .slide-in-1 {
   animation-duration: 1s;
@@ -66,7 +66,7 @@ body {
 	color: #484848;
 }
 .title-font {
-  font-size: 4em;
+  font-size: 3.2em;
   font-weight: bold;
 }
 .double-font {
@@ -208,4 +208,7 @@ hr {
 }
 .about {
   font-size: 1.2em;
+}
+.app-store-badge {
+  width: 50%;
 }
