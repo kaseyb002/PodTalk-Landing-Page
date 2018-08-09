@@ -216,3 +216,8 @@ hr {
   text-align: center;
   font-weight: normal;
 }
+.center-icon {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
