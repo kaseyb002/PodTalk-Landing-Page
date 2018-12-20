@@ -40,13 +40,18 @@
     height: 40px;
   }
 
+  img.curved-shadow {
+    border-radius: 15px;
+    box-shadow: 2.2px 2.2px 2.2px 2.2px #222;
+  }
+
   </style>
 </head>
 <body onload="bounce()">
 
 <div class="container">
   <div class="logo">
-    <a href="https://podtalk.app"><img src="assets/img/app-icon.png"/></a>
+    <a href="https://podtalk.app"><img src="assets/img/app-icon.png" class="logo curved-shadow"></a>
   </div>
 
   <div>
@@ -59,7 +64,7 @@
   </div>
 
   <div class="appstore">
-    <a href="https://testflight.apple.com/join/zqH9HWis"><img src="/images/app-store-badge.svg"/></a>
+    <a href="https://testflight.apple.com/join/zqH9HWis"><img class="app-store-badge" src="assets/img/app-store-badge.svg" /></a>
   </div>
 </div>
 
