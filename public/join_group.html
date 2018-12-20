@@ -1,0 +1,84 @@
+<html>
+<head>
+  <title>Get Sunny</title>
+  <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1"/>
+  <style>
+
+  html, body {
+    text-align: center;
+    background: #ffffff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 15px;
+  }
+
+  .container {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+
+  .container p {
+    text-align: left;
+    line-height: 1.5;
+  }
+
+  .logo {
+    margin: 50px 0 50px 0;
+  }
+
+  .logo img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .appstore {
+    margin: 30px auto;
+  }
+
+  .appstore img {
+    width: 128px;
+    height: 40px;
+  }
+
+  </style>
+</head>
+<body onload="bounce()">
+
+<div class="container">
+  <div class="logo">
+    <a href="https://podtalk.app"><img src="assets/img/app-icon.png"/></a>
+  </div>
+
+  <div>
+    <p>
+      You've been invited to join a group on <a href="https://podtalk.app">PodTalk</a>!
+    </p>
+    <p>
+      PodTalk is a podcast app that lets you listen to and comment on podcasts within private groups.
+    </p>
+  </div>
+
+  <div class="appstore">
+    <a href="https://testflight.apple.com/join/zqH9HWis"><img src="/images/app-store-badge.svg"/></a>
+  </div>
+</div>
+
+<script>
+
+function bounce () {
+  const urlParams = new URLSearchParams(window.location.search);
+  const urlParam = urlParams.get('u');
+
+  if (urlParam) {
+    document.location = urlParam;
+  }
+
+  return false;
+}
+
+bounce();
+
+</script>
+</body>
+</html>
+
