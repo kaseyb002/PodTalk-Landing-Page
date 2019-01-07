@@ -221,3 +221,10 @@ hr {
   width: 100%;
   text-align: center;
 }
+.apply-to-beta-button {
+  font-weight: bold;
+  font-size: 2em;
+  display: inline-block;
+  width: 100%;
+  text-align: center; 
+}
